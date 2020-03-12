@@ -42,6 +42,7 @@ export default {
   methods: {}
 };
 </script>
-
 <style lang="less">
+@import '../node_modules/vant/lib/index.css';
+@import './assets/css/reset.less';
 </style>
