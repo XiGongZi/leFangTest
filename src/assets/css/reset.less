@@ -1,6 +1,6 @@
 /*base root font size setting*/
 @import 'theme.less';
-html{font-size: 50PX;}
+html{font-size: 50PX;min-width:1000px;}
 @media screen and (min-width:320PX){html{font-size: 50PX;}}
 @media screen and (min-width:360PX){html{font-size: 56PX;}}
 @media screen and (min-width:375PX){html{font-size: 60PX;}}
@@ -9,6 +9,8 @@ html{font-size: 50PX;}
 @media screen and (min-width:640PX){html{font-size: 100PX;}}
 /*rest*/
 *{margin:0; padding:0;}
+// *{box-sizing: border-box;border:1px solid red;}
+.cursorPointer {cursor: pointer;}
 html, body, #app{height: 100%;font-family:Helvetica;}
 body, img, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, li, form, iframe{margin: 0; padding: 0; font-weight: normal;}
 a{color: inherit;}
@@ -193,6 +195,8 @@ input {appearance: none;}
 .mar-b-35{ margin-bottom: .35rem;}
 .mar-b-40{ margin-bottom: .4rem;}
 .mar-r-15{ margin-right: .15rem;}
+.mar-r-20{ margin-right: .20rem;}
+.mar-l-15{ margin-left: .15rem;}
 .mar-l-17{ margin-left: .17rem !important;}
 .mar-l-20{ margin-left: .2rem;}
 .mar-l-25{ margin-left: .25rem;}
